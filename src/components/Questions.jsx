@@ -33,7 +33,7 @@ const Questions = () => {
       };
 
   return (
-    <div className=" w-screen h-auto flex py-16 flex-col justify-center items-center gap-7 mt-32">
+    <div className=" w-screen h-auto flex pt-72 md:pt-16 flex-col justify-center items-center gap-7 mt-32">
           <h1 className="text-[#101828] text-[36px] font-semibold">Frequently asked questions</h1>
           <p className='text-xl font-normal text-[#475476]'>Everything you need to know about the product and billing.</p>
           <div className="flex flex-col w-screen justify-center items-center gap-3">

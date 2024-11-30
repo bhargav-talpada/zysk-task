@@ -7,6 +7,7 @@ import Features2 from './components/Features2';
 import Questions from './components/Questions';
 import FreeTrial from './components/FreeTrial';
 import Footer from './components/Footer';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Tastimonials />
       <Features2 />
       <Questions />
+      <Blogs />
       <FreeTrial />
       <Footer />
     </>

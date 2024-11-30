@@ -16,10 +16,10 @@ const Features2 = () => {
         <div className="">
             <img src={screen} className=" hidden lg:block w-[768px] h-[512px] border-4 border-[#101828] rounded-lg" alt="" />
         </div>
-        <div className='absolute left-12 sm:left-32 md:left-64 mt-[850px] md:mt-[600px]'>
+        <div className='relative md:absolute left-12 sm:left-32 md:left-64 md:mt-[600px]'>
             <img src={phone} alt="iphone" />
         </div>
-        <div className='absolute left-14 sm:left-32 md:left-[268px] mt-[850px] md:mt-[600px]'>
+        <div className='absolute left-[195px] md:left-[268px] mt-[380px] md:mt-[600px]'>
             <img src={iscreen} alt="iscreen"  className='rounded-3xl'/>
         </div>
     </div>

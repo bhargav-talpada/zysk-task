@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="mt-12">
             <img src={screen} className="w-[343px] md:w-[600px] lg:w-[1200px] border-4 border-[#101828] rounded-lg border-b-0" alt="" />
         </div>
-        <div className="mt-12 gap-10">
+        <div className="pt-20 gap-10">
             <p className="text-[#475467] font-medium text-base text-center">Join 4,000+ companies already growing</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-0 lg:flex justify-center items-center gap-3">
                 <div className="flex justify-center items-center w-40 gap-1">
