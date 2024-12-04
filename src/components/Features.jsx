@@ -58,7 +58,7 @@ const Features = () => {
                 messages.map((m) => (
                     <div className='flex flex-col justify-center items-center' key={m.id}>
                         <img src={m.src} alt="message" />
-                        <h1 className='text-[#101828] text-[19px] md:text-xl font-semibold'>{m.title}</h1>
+                        <h1 className='text-[#101828] text-xl font-semibold'>{m.title}</h1>
                         <p className='text-center lg:w-96 text-[#475467]  text-base font-normal'>{m.description}</p>
                     </div>
                 ))
