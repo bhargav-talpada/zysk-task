@@ -3,8 +3,8 @@ import logo from '../images/Logo wrap.png'
 
 const Footer = () => {
   return (
-    <div className='w-full h-[400px] flex flex-col justify-evenly items-center mt-20'>
-        <div className='w-10/12 grid grid-cols-2  lg:flex justify-evenly items-center gap-12 lg:gap-0'>
+    <div className='w-full h-[400px] flex flex-col justify-evenly items-center mt-20 gap-5'>
+        <div className='w-10/12 grid grid-cols-2  lg:flex justify-evenly items-center gap-10 lg:gap-0'>
             <div className='flex flex-col justify-center items-center gap-2'>
                 <h2 className='text-sm font-semibold text-[#667085]'>Product</h2>
                 <h2 className='text-balance font-semibold text-[#475467]'>Overview</h2>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
         </div>
         <hr className='w-9/12 border-1 border-gray-400 font-extrabold' />
-        <div className='w-9/12 flex flex-col md:flex-row justify-between items-center'>
+        <div className='w-9/12 flex flex-col md:flex-row justify-between items-center gap-5 pb-5'>
             <img src={logo} alt="logo" />
             <p className='text-[#667085] text-xs md:text-base font-normal'>© 2077 Untitled UI. All rights reserved.</p>
         </div>
